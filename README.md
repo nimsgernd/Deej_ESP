@@ -1,10 +1,15 @@
-# Deej Fork by Daniel Nimsgern
+﻿# Deej Fork by Daniel Nimsgern
 
 Original deej project (original description below) by omriharel
 
-I am in the process of adding code for 10 sliders, 2 knobs with pbt, 10 mute buttons, 12 LED mute indicators, 8 Macro buttons, and 4 SPI 128x64 OLED displays.
+After this project sitting idle for so long due to budget reasons I have decided to revive it. The main changes I am looking at are a custom PCB and a switch to using an ESP32 for ease of use and adding wireless capabilities.
 
-All custom chages are in the folder /arduino/deej-custom/ with standard minor changes to config.yaml other than that the desktop application has no edits by me.
+The desired feature list is:
+- 10 sliders
+- 10 mute buttons (mechanical key switches)
+- 2 knobs with pbt
+- 12 LED mute indicators
+- 4 SPI 128x64 OLED displays
 
 # deej
 
