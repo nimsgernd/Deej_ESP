@@ -419,7 +419,7 @@
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "used_designators": "U1"
+    "used_designators": "DS1,U1"
   },
   "sheets": [
     [
