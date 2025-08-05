@@ -5,6 +5,569 @@
 	(uuid "8d652af0-aa82-4e0b-8846-3a70bb846eae")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Bourns_Potentiometer:PTL01-15R0-103B1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "P"
+				(at 3.556 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10K"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Bourns_Potentiometer:PTL01"
+				(at 4.572 -11.176 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "10K Slide Potentiameter with red LED indicator"
+				(at 4.826 -9.398 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTL01-15R0-103B1_0_1"
+				(polyline
+					(pts
+						(xy 0 -1.27) (xy 2.54 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -5.08) (xy 6.35 -6.35) (xy 3.81 -7.62) (xy 3.81 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 -6.35) (xy 0 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 -5.08) (xy 6.35 -7.62)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -1.27) (xy 10.16 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -6.35) (xy 6.35 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PTL01-15R0-103B1_1_1"
+				(rectangle
+					(start 0 0)
+					(end 10.16 -7.62)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 2.54 0)
+					(end 7.62 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 6.35 1.27) (xy 3.81 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin free line
+					(at -5.08 -13.97 180)
+					(length 2.54)
+					(hide yes)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "L1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -5.08 -16.51 180)
+					(length 2.54)
+					(hide yes)
+					(name "Mounting_Hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin free line
+					(at -5.08 -19.05 180)
+					(length 2.54)
+					(hide yes)
+					(name "Mounting_Hole"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 -6.35 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -1.27 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 -6.35 180)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "E1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:Inolux_IN-PI554FCH"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "Inolux_IN-PI554FCH"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+				(at 2.54 -9.525 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "LED*IN-PI554FCH*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "Inolux_IN-PI554FCH_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RF_Module:ESP32-S3-MINI-1U"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1282,6 +1845,1327 @@
 				)
 			)
 			(embedded_fonts no)
+		)
+		(symbol "TI:PCF8574RGTR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 19.304 9.144 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "PCF8574RGTR"
+				(at 19.304 6.604 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RGT16_1P6X1P6"
+				(at 19.304 -29.21 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
+				(at 20.32 -26.924 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "PCF8574RGTR"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RGT16_1P6X1P6"
+				(at 0 0 0)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PCF8574RGTR_0_1"
+				(pin power_in line
+					(at 0 3.81 0)
+					(length 7.62)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -1.27 0)
+					(length 7.62)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.81 0)
+					(length 7.62)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 0 -8.89 0)
+					(length 7.62)
+					(name "*INT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -13.97 0)
+					(length 7.62)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -16.51 0)
+					(length 7.62)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -19.05 0)
+					(length 7.62)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 1.27 180)
+					(length 7.62)
+					(name "P0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -1.27 180)
+					(length 7.62)
+					(name "P1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -3.81 180)
+					(length 7.62)
+					(name "P2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -6.35 180)
+					(length 7.62)
+					(name "P3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -8.89 180)
+					(length 7.62)
+					(name "P4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -11.43 180)
+					(length 7.62)
+					(name "P5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -13.97 180)
+					(length 7.62)
+					(name "P6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 38.1 -16.51 180)
+					(length 7.62)
+					(name "P7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 38.1 -21.59 180)
+					(length 7.62)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 38.1 -24.13 180)
+					(length 7.62)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PCF8574RGTR_1_1"
+				(rectangle
+					(start 7.62 5.08)
+					(end 30.48 -25.4)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
+		(at 185.42 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0f891eb0-f2a9-4af7-9ecd-698e941e58cb")
+		(property "Reference" "P2"
+			(at 190.5 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 190.5 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bourns_Potentiometer:PTL01"
+			(at 189.992 101.346 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K Slide Potentiameter with red LED indicator"
+			(at 190.246 99.568 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L1"
+			(uuid "95a40aa2-abae-468b-af50-884a81a8528b")
+		)
+		(pin "2"
+			(uuid "9095c1bb-7c65-4669-92eb-a78093bdfcfe")
+		)
+		(pin "1"
+			(uuid "2e572759-8b10-4471-86ad-434ee858a94b")
+		)
+		(pin "B1"
+			(uuid "0087eca6-ca09-4da1-83bb-404d8547b72a")
+		)
+		(pin "3"
+			(uuid "421570b5-3729-4381-a64a-e0311d88e8f3")
+		)
+		(pin "4"
+			(uuid "dd4e5d8e-9c95-4bde-a235-11dbe6e1d9a3")
+		)
+		(pin "5"
+			(uuid "e8c0c2c3-e7aa-4a21-94a4-8a03a59db577")
+		)
+		(pin "E1"
+			(uuid "8975cf56-711f-4094-a83a-37f1afe4f6b0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "P2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
+		(at 228.6 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1959c95a-cd9b-41c9-805f-9bcd9c19effe")
+		(property "Reference" "P4"
+			(at 233.68 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 233.68 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bourns_Potentiometer:PTL01"
+			(at 233.172 101.346 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 228.6 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K Slide Potentiameter with red LED indicator"
+			(at 233.426 99.568 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L1"
+			(uuid "95a40aa2-abae-468b-af50-884a81a8528b")
+		)
+		(pin "2"
+			(uuid "9095c1bb-7c65-4669-92eb-a78093bdfcfe")
+		)
+		(pin "1"
+			(uuid "2e572759-8b10-4471-86ad-434ee858a94b")
+		)
+		(pin "B1"
+			(uuid "0087eca6-ca09-4da1-83bb-404d8547b72a")
+		)
+		(pin "3"
+			(uuid "421570b5-3729-4381-a64a-e0311d88e8f3")
+		)
+		(pin "4"
+			(uuid "dd4e5d8e-9c95-4bde-a235-11dbe6e1d9a3")
+		)
+		(pin "5"
+			(uuid "e8c0c2c3-e7aa-4a21-94a4-8a03a59db577")
+		)
+		(pin "E1"
+			(uuid "8975cf56-711f-4094-a83a-37f1afe4f6b0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "P4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
+		(at 248.92 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c5abfb5-1ed7-4728-8e5a-a3bfaa6b725d")
+		(property "Reference" "P5"
+			(at 254 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 254 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bourns_Potentiometer:PTL01"
+			(at 253.492 101.346 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 248.92 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K Slide Potentiameter with red LED indicator"
+			(at 253.746 99.568 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L1"
+			(uuid "95a40aa2-abae-468b-af50-884a81a8528b")
+		)
+		(pin "2"
+			(uuid "9095c1bb-7c65-4669-92eb-a78093bdfcfe")
+		)
+		(pin "1"
+			(uuid "2e572759-8b10-4471-86ad-434ee858a94b")
+		)
+		(pin "B1"
+			(uuid "0087eca6-ca09-4da1-83bb-404d8547b72a")
+		)
+		(pin "3"
+			(uuid "421570b5-3729-4381-a64a-e0311d88e8f3")
+		)
+		(pin "4"
+			(uuid "dd4e5d8e-9c95-4bde-a235-11dbe6e1d9a3")
+		)
+		(pin "5"
+			(uuid "e8c0c2c3-e7aa-4a21-94a4-8a03a59db577")
+		)
+		(pin "E1"
+			(uuid "8975cf56-711f-4094-a83a-37f1afe4f6b0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "P5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 167.64 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aad6eea-1215-4296-8086-4791147489ad")
+		(property "Reference" "D1"
+			(at 184.15 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inolux_IN-PI554FCH"
+			(at 184.15 60.8898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 168.91 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+			(at 170.18 74.295 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 167.64 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e21a1744-f5f4-4b5c-88e6-66505492487c")
+		)
+		(pin "3"
+			(uuid "0d1619e3-55f8-4642-8556-b3c65de09a88")
+		)
+		(pin "4"
+			(uuid "119e8723-7a33-4b14-b5f8-905bb61afba3")
+		)
+		(pin "1"
+			(uuid "60fcd5a6-2c10-4824-b541-7bb4a87760d6")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TI:PCF8574RGTR")
+		(at 144.78 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4dd629ac-f5f2-4a10-b526-6ebb07766de2")
+		(property "Reference" "U2"
+			(at 163.83 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCF8574RGTR"
+			(at 163.83 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RGT16_1P6X1P6"
+			(at 164.084 149.86 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
+			(at 165.1 147.574 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 144.78 120.65 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "01872e74-b413-4f79-8a87-f6724e9fb229")
+		)
+		(pin "17"
+			(uuid "7dcc3970-d065-41bb-ad39-9524b408ac66")
+		)
+		(pin "11"
+			(uuid "c218f622-55ae-4f00-9de6-482c88c1e855")
+		)
+		(pin "6"
+			(uuid "b1cb3871-eb96-4a41-bc66-0724b44179da")
+		)
+		(pin "7"
+			(uuid "d0582415-f190-4002-ac86-22b19dd15877")
+		)
+		(pin "2"
+			(uuid "9ab4496d-5925-480a-a1b6-80652313b895")
+		)
+		(pin "15"
+			(uuid "ae1a54c7-bfd6-4f5e-8f83-ce604b457a96")
+		)
+		(pin "16"
+			(uuid "c5729fa1-9301-448d-b879-b27d7adcdfec")
+		)
+		(pin "13"
+			(uuid "b005ef50-dcb7-4b5d-9e3d-3fcbd176dab2")
+		)
+		(pin "10"
+			(uuid "0c74666f-2263-4aac-bd68-775fbd063bb2")
+		)
+		(pin "8"
+			(uuid "96aa00a1-4a69-4bd2-a050-c9f98d9075c6")
+		)
+		(pin "3"
+			(uuid "5e3e4767-718d-4dfd-88c4-89f5b36fb522")
+		)
+		(pin "4"
+			(uuid "f6bc1fd8-2e3a-4562-8cc4-ddb9e57c9d92")
+		)
+		(pin "5"
+			(uuid "d08ec37c-2c68-4ec7-b9f4-32ac4657057f")
+		)
+		(pin "12"
+			(uuid "9afb7281-0bc0-4cd8-a476-6027bf0bd2b9")
+		)
+		(pin "1"
+			(uuid "76d252c2-7bec-4d05-99bd-f6ccfc73333d")
+		)
+		(pin "9"
+			(uuid "673b8bec-503a-4f27-b7b6-79eab6b9173c")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TI:PCF8574RGTR")
+		(at 232.41 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "725530dc-0e68-49b9-ad1f-8a0053daa9ca")
+		(property "Reference" "U4"
+			(at 251.46 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCF8574RGTR"
+			(at 251.46 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RGT16_1P6X1P6"
+			(at 251.714 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
+			(at 252.73 150.114 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 232.41 123.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "8"
+			(uuid "d7b7f1ef-2ac9-4163-bf84-63f5ceeb207c")
+		)
+		(pin "11"
+			(uuid "aa0ac703-85cc-4aa7-997e-8c5f62d23f01")
+		)
+		(pin "12"
+			(uuid "f0377a9a-8a4d-4abd-ba07-f3088842d198")
+		)
+		(pin "9"
+			(uuid "ebd74a34-981c-408e-9ae4-52b9d3fffdce")
+		)
+		(pin "2"
+			(uuid "a4950216-66bb-47ce-abe1-97f16ad75dd8")
+		)
+		(pin "1"
+			(uuid "28b393a4-64f2-44ad-8624-5061f5f2ad09")
+		)
+		(pin "14"
+			(uuid "ef50814e-0d54-4390-91f5-b2029ec5c2d5")
+		)
+		(pin "5"
+			(uuid "33e86f6e-f565-42b5-8f6b-5b6a465ef851")
+		)
+		(pin "13"
+			(uuid "ccd3dfd8-2568-416d-8034-b99a4629407a")
+		)
+		(pin "3"
+			(uuid "60340dbd-5d67-4605-9360-0beb51959509")
+		)
+		(pin "16"
+			(uuid "0fe49b66-0999-4ace-872b-9a1635d6853b")
+		)
+		(pin "15"
+			(uuid "001bb6a7-726e-4136-8e75-b4c550062cdf")
+		)
+		(pin "7"
+			(uuid "77fc9587-ff79-4749-b627-8dab2c176277")
+		)
+		(pin "10"
+			(uuid "a65287ee-6bed-4cc5-864d-fa9317cc96d5")
+		)
+		(pin "4"
+			(uuid "df546423-e055-4b8b-b317-8906f5d25f2a")
+		)
+		(pin "17"
+			(uuid "51d6d5cf-b040-43d1-9b67-8f8774215b49")
+		)
+		(pin "6"
+			(uuid "981e2fe1-9481-4b50-87c9-695c4ee3fdbe")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "U4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:Inolux_IN-PI554FCH")
+		(at 204.47 64.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b0346d1-5411-48ea-97f2-8065efd4369d")
+		(property "Reference" "D2"
+			(at 220.98 58.3498 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Inolux_IN-PI554FCH"
+			(at 220.98 60.8898 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_Inolux_IN-PI554FCH_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 205.74 72.39 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.inolux-corp.com/datasheet/SMDLED/Addressable%20LED/IN-PI554FCH.pdf"
+			(at 207.01 74.295 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "5050 RGB LED 4-Pin with integrated IC"
+			(at 204.47 64.77 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "02652043-db3d-4de3-b1c6-c7228e6159d9")
+		)
+		(pin "4"
+			(uuid "75bb7f28-bb41-44c8-87f3-e46fd3fad01e")
+		)
+		(pin "1"
+			(uuid "64cd4c89-1964-4b41-be66-f8e7a14c454b")
+		)
+		(pin "3"
+			(uuid "e783934a-f367-4893-8ccf-edd4e2b0dff0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "TI:PCF8574RGTR")
+		(at 190.5 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a529cce3-b2ce-41b1-bcca-b340c6bcba3b")
+		(property "Reference" "U3"
+			(at 209.55 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "PCF8574RGTR"
+			(at 209.55 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RGT16_1P6X1P6"
+			(at 209.804 152.4 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
+			(at 210.82 150.114 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 190.5 123.19 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "01872e74-b413-4f79-8a87-f6724e9fb229")
+		)
+		(pin "17"
+			(uuid "7dcc3970-d065-41bb-ad39-9524b408ac66")
+		)
+		(pin "11"
+			(uuid "c218f622-55ae-4f00-9de6-482c88c1e855")
+		)
+		(pin "6"
+			(uuid "b1cb3871-eb96-4a41-bc66-0724b44179da")
+		)
+		(pin "7"
+			(uuid "d0582415-f190-4002-ac86-22b19dd15877")
+		)
+		(pin "2"
+			(uuid "9ab4496d-5925-480a-a1b6-80652313b895")
+		)
+		(pin "15"
+			(uuid "ae1a54c7-bfd6-4f5e-8f83-ce604b457a96")
+		)
+		(pin "16"
+			(uuid "c5729fa1-9301-448d-b879-b27d7adcdfec")
+		)
+		(pin "13"
+			(uuid "b005ef50-dcb7-4b5d-9e3d-3fcbd176dab2")
+		)
+		(pin "10"
+			(uuid "0c74666f-2263-4aac-bd68-775fbd063bb2")
+		)
+		(pin "8"
+			(uuid "96aa00a1-4a69-4bd2-a050-c9f98d9075c6")
+		)
+		(pin "3"
+			(uuid "5e3e4767-718d-4dfd-88c4-89f5b36fb522")
+		)
+		(pin "4"
+			(uuid "f6bc1fd8-2e3a-4562-8cc4-ddb9e57c9d92")
+		)
+		(pin "5"
+			(uuid "d08ec37c-2c68-4ec7-b9f4-32ac4657057f")
+		)
+		(pin "12"
+			(uuid "9afb7281-0bc0-4cd8-a476-6027bf0bd2b9")
+		)
+		(pin "1"
+			(uuid "76d252c2-7bec-4d05-99bd-f6ccfc73333d")
+		)
+		(pin "9"
+			(uuid "673b8bec-503a-4f27-b7b6-79eab6b9173c")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
+		(at 207.01 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b1d40dfb-d354-4e1b-81ff-a3fd8fd3d23c")
+		(property "Reference" "P3"
+			(at 212.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 212.09 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bourns_Potentiometer:PTL01"
+			(at 211.582 101.346 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K Slide Potentiameter with red LED indicator"
+			(at 211.836 99.568 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L1"
+			(uuid "95a40aa2-abae-468b-af50-884a81a8528b")
+		)
+		(pin "2"
+			(uuid "9095c1bb-7c65-4669-92eb-a78093bdfcfe")
+		)
+		(pin "1"
+			(uuid "2e572759-8b10-4471-86ad-434ee858a94b")
+		)
+		(pin "B1"
+			(uuid "0087eca6-ca09-4da1-83bb-404d8547b72a")
+		)
+		(pin "3"
+			(uuid "421570b5-3729-4381-a64a-e0311d88e8f3")
+		)
+		(pin "4"
+			(uuid "dd4e5d8e-9c95-4bde-a235-11dbe6e1d9a3")
+		)
+		(pin "5"
+			(uuid "e8c0c2c3-e7aa-4a21-94a4-8a03a59db577")
+		)
+		(pin "E1"
+			(uuid "8975cf56-711f-4094-a83a-37f1afe4f6b0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "P3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
+		(at 163.83 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c63425d0-eb77-4efa-ac1c-47ceb68fa346")
+		(property "Reference" "P1"
+			(at 168.91 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 168.91 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Bourns_Potentiometer:PTL01"
+			(at 168.402 101.346 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 90.17 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "10K Slide Potentiameter with red LED indicator"
+			(at 168.656 99.568 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "L1"
+			(uuid "95a40aa2-abae-468b-af50-884a81a8528b")
+		)
+		(pin "2"
+			(uuid "9095c1bb-7c65-4669-92eb-a78093bdfcfe")
+		)
+		(pin "1"
+			(uuid "2e572759-8b10-4471-86ad-434ee858a94b")
+		)
+		(pin "B1"
+			(uuid "0087eca6-ca09-4da1-83bb-404d8547b72a")
+		)
+		(pin "3"
+			(uuid "421570b5-3729-4381-a64a-e0311d88e8f3")
+		)
+		(pin "4"
+			(uuid "dd4e5d8e-9c95-4bde-a235-11dbe6e1d9a3")
+		)
+		(pin "5"
+			(uuid "e8c0c2c3-e7aa-4a21-94a4-8a03a59db577")
+		)
+		(pin "E1"
+			(uuid "8975cf56-711f-4094-a83a-37f1afe4f6b0")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "P1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol

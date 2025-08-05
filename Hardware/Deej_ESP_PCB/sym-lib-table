@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bourns_Potentiometer")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/Bourns_Potentiometer.kicad_sym")(options "")(descr ""))
+  (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/TI.kicad_sym")(options "")(descr ""))
+)

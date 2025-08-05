@@ -1,0 +1,6 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "ProjectLib")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib.pretty")(options "")(descr ""))
+  (lib (name "Bourns_Potentiometer")(type "KiCad")(uri "${KIPRJMOD}/Bourns_Potentiometer.pretty")(options "")(descr ""))
+  (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/TI.pretty")(options "")(descr ""))
+)
