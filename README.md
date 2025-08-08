@@ -5,11 +5,14 @@ Original deej project (original description below) by omriharel
 After this project sitting idle for so long due to budget reasons I have decided to revive it. The main changes I am looking at are a custom PCB and a switch to using an ESP32 for ease of use and adding wireless capabilities.
 
 The desired feature list is:
-- 10 sliders
-- 10 mute buttons (mechanical key switches)
-- 2 knobs with pbt
-- 12 LED mute indicators
+- 6 Slide potentiometers
+- 6 Mute buttons (Cherry MX Green Switches)
+- 2 Rotary potentiometers with switches
+- 20 LED mute indicators
 - 4 SPI 128x64 OLED displays
+
+Evenually:
+- Li-Ion battery powered
 
 # deej
 
