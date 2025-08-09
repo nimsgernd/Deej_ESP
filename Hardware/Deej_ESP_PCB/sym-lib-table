@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "Bourns_Potentiometer")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/Bourns_Potentiometer.kicad_sym")(options "")(descr ""))
   (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/TI.kicad_sym")(options "")(descr ""))
+  (lib (name "Adafruit")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/Adafruit.kicad_sym")(options "")(descr ""))
+  (lib (name "STM")(type "KiCad")(uri "${KIPRJMOD}/ProjectLib/STM.kicad_sym")(options "")(descr ""))
 )
