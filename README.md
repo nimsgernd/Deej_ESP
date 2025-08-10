@@ -1,18 +1,19 @@
 ﻿# Deej Fork by Daniel Nimsgern
 
-Original deej project (original description below) by omriharel
+Original deej project (description below) by omriharel
 
-After this project sitting idle for so long due to budget reasons I have decided to revive it. The main changes I am looking at are a custom PCB and a switch to using an ESP32 for ease of use and adding wireless capabilities.
+After this project sat idle for so long due to budget reasons I have decided to revive it. The main changes I am looking at are a custom PCB and a switch to using an ESP32 for ease of use and adding wireless capabilities.
 
 The desired feature list is:
 - 6 Slide potentiometers
 - 6 Mute buttons (Cherry MX Green Switches)
 - 2 Rotary potentiometers with switches
-- 20 LED mute indicators
+- 8 LED mute indicators
+- 12 Slide poentiometer indicators
 - 4 SPI 128x64 OLED displays
 
 Evenually:
-- Li-Ion battery powered
+- Li-Ion battery powered (maybe 18650)
 
 # deej
 
