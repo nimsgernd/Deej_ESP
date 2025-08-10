@@ -620,7 +620,7 @@
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "used_designators": "CR1-16,#PWR15-18,U7-12"
+    "used_designators": "R25-26,#PWR19-20,CR17-18"
   },
   "sheets": [
     [

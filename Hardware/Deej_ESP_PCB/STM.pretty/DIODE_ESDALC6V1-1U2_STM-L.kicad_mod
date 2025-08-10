@@ -8,7 +8,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "b355bbf7-6791-4d2a-a1bb-e949fe02e945")
+		(uuid "161df71f-baeb-469c-a979-228e9109613a")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "6d173f6f-10ec-41f6-ac5b-0e79919d37d4")
+		(uuid "ce451856-0b1a-4aa3-a7ed-23ab3b2ce321")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "303e6aa6-3596-409e-bd94-9156c21f004f")
+		(uuid "d59c9224-3ce4-438f-900c-c39cf810b529")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "3ff2cbf3-39c1-45b9-bddb-677b1949a566")
+		(uuid "3ff81722-f057-4563-a30b-21c4ac072c54")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -267,4 +267,15 @@
 		(uuid "24d0c9b1-3a4d-4943-9056-32510c470b24")
 	)
 	(embedded_fonts no)
+	(model "${KIPRJMOD}/STM.pretty/DIODE_ESDALC6V1-1U2_STM.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
