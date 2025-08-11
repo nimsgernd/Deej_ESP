@@ -2,7 +2,7 @@
 	(version 20250324)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.99")
-	(symbol "0_96_128x16_OLED_Module"
+	(symbol "1_3_128x64_OLED_Module"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -15,7 +15,7 @@
 				)
 			)
 		)
-		(property "Value" "0.96\" 128x64 OLED"
+		(property "Value" "1.3\" 128x64 OLED"
 			(at 8.89 1.016 0)
 			(effects
 				(font
@@ -23,7 +23,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Adafruit_1_3_OLED"
 			(at 0 0 0)
 			(hide yes)
 			(effects
@@ -50,7 +50,7 @@
 				)
 			)
 		)
-		(symbol "0_96_128x16_OLED_Module_1_1"
+		(symbol "1_3_128x64_OLED_Module_1_1"
 			(rectangle
 				(start 0 0)
 				(end 17.78 -19.05)

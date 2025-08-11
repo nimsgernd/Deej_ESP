@@ -423,6 +423,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
       "label_dangling": "error",
@@ -620,7 +621,7 @@
     "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
-    "used_designators": "R25-26,#PWR19-20,CR17-18"
+    "used_designators": "U7-9,U12-15,C25-26,#PWR20-23,D23-25,R27-29"
   },
   "sheets": [
     [
