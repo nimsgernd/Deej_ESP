@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20250610)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(uuid "8d652af0-aa82-4e0b-8846-3a70bb846eae")
 	(paper "A3")
 	(title_block
@@ -13,7 +13,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 9.144 3.048 0)
 				(effects
@@ -220,7 +219,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 7.874 1.524 0)
 				(effects
@@ -492,7 +490,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "P"
 				(at 3.556 -8.89 0)
 				(effects
@@ -802,7 +799,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J1"
 				(at 0 22.86 0)
 				(effects
@@ -1503,7 +1499,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -1643,7 +1638,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "C"
 				(at 0.635 2.54 0)
 				(effects
@@ -1806,7 +1800,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -1975,7 +1968,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 0 2.54 0)
 				(effects
@@ -2158,7 +2150,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "R"
 				(at 2.032 0 90)
 				(effects
@@ -2280,7 +2271,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "D"
 				(at 5.08 5.715 0)
 				(effects
@@ -2537,7 +2527,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 0 10.16 0)
 				(effects
@@ -3155,7 +3144,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at -11.43 29.21 0)
 				(effects
@@ -4436,7 +4424,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 15.494 9.144 0)
 				(effects
@@ -4784,7 +4771,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CR"
 				(at 4.318 5.588 0)
 				(effects
@@ -4953,7 +4939,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "CR"
 				(at 12.446 7.366 0)
 				(effects
@@ -5126,7 +5111,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "SW"
 				(at 1.27 2.54 0)
 				(effects
@@ -5273,7 +5257,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 12.7 3.81 0)
 				(effects
@@ -5442,7 +5425,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 19.304 9.144 0)
 				(effects
@@ -5836,7 +5818,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
 				(at 15.494 9.144 0)
 				(effects
@@ -6178,7 +6159,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+3.3V"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -6189,7 +6170,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(hide yes)
@@ -6304,7 +6284,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:+5V"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -6315,7 +6295,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -3.81 0)
 				(hide yes)
@@ -6430,7 +6409,7 @@
 			(embedded_fonts no)
 		)
 		(symbol "power:GND"
-			(power global)
+			(power)
 			(pin_numbers
 				(hide yes)
 			)
@@ -6441,7 +6420,6 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "#PWR"
 				(at 0 -6.35 0)
 				(hide yes)
