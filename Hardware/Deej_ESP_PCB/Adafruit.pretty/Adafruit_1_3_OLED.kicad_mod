@@ -1,7 +1,7 @@
 (footprint "Adafruit_1_3_OLED"
-	(version 20250513)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 9.67 11.735 0)
@@ -54,7 +54,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -8.746 0)
 		(end -8.746 29.464)
@@ -609,10 +608,6 @@
 		(size 2.7 2.7)
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "c9936755-3d67-423f-acae-7a55221a5e47")
 	)
 	(pad "" np_thru_hole circle
@@ -620,10 +615,6 @@
 		(size 2.7 2.7)
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "c7000829-da6d-4b2f-895b-db7ce4969503")
 	)
 	(pad "" np_thru_hole circle
@@ -631,10 +622,6 @@
 		(size 2.7 2.7)
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "2ff4ab83-e3b4-4ffc-af70-6f090978c177")
 	)
 	(pad "" np_thru_hole circle
@@ -642,10 +629,6 @@
 		(size 2.7 2.7)
 		(drill 2.7)
 		(layers "*.Cu" "*.Mask")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "892e9d01-b7c1-4d64-8cf7-8d4282722fd2")
 	)
 	(pad "1" thru_hole rect
@@ -654,10 +637,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "340b18e6-8b46-4aeb-81c6-a8ce4ba7818c")
 	)
 	(pad "2" thru_hole circle
@@ -666,10 +645,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "d031c520-9999-4bf3-961d-5b75f6b26134")
 	)
 	(pad "3" thru_hole circle
@@ -678,10 +653,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "d1b244e2-1d1e-4fdb-975a-0f7712e64218")
 	)
 	(pad "4" thru_hole circle
@@ -690,10 +661,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "1e89a3ef-a0e9-4345-8fa7-56972d943fa8")
 	)
 	(pad "5" thru_hole circle
@@ -702,10 +669,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "0e981262-ec85-4c2d-8b0f-da848b7de81c")
 	)
 	(pad "6" thru_hole circle
@@ -714,10 +677,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "6f498d24-6d5f-40ce-b480-e91e15f899f3")
 	)
 	(pad "7" thru_hole circle
@@ -726,10 +685,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "b92e89c2-769b-4bec-8ca9-4e583c67dac8")
 	)
 	(pad "8" thru_hole circle
@@ -738,10 +693,6 @@
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "0491744d-5682-4849-9bc7-a6b719a6a683")
 	)
 	(embedded_fonts no)

@@ -1,7 +1,7 @@
 (footprint "QFN1610_STM"
-	(version 20250513)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "ESDA25P35-1U1M ")
 	(property "Reference" "REF**"
@@ -51,7 +51,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -1.0541 -0.7493)
 		(end 1.0541 -0.7493)
@@ -239,20 +238,12 @@
 		(at -0.5207 0)
 		(size 0.4064 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "288e98ff-f4e3-42d0-8c64-2fa1129868c3")
 	)
 	(pad "2" smd rect
 		(at 0.5207 0)
 		(size 0.4064 0.8382)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "fa3bbab1-36a3-4efa-815b-cfe3dfff35f3")
 	)
 	(embedded_fonts no)

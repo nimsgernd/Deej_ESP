@@ -1,7 +1,7 @@
 (footprint "DIODE_ESDALC6V1-1U2_STM"
-	(version 20250513)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "ESDALC6V1-1U2 ")
 	(property "Reference" "REF**"
@@ -51,7 +51,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.5842 -0.4318)
 		(end 0.5842 -0.4318)
@@ -239,20 +238,12 @@
 		(at -0.1778 0)
 		(size 0.2286 0.3048)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "2fce7471-588b-49eb-94fe-d968a8863c95")
 	)
 	(pad "2" smd rect
 		(at 0.1778 0)
 		(size 0.2286 0.3048)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "15cc53bf-924e-4604-90bb-e57b5c20d0bf")
 	)
 	(embedded_fonts no)

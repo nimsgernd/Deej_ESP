@@ -5,4 +5,6 @@
   (lib (name "TI")(type "KiCad")(uri "${KIPRJMOD}/TI.pretty")(options "")(descr ""))
   (lib (name "Switch_Keyboard_Cherry_MX")(type "KiCad")(uri "${KICAD9_3RD_PARTY}/footprints/com_github_perigoso_keyswitch-kicad-library/Switch_Keyboard_Cherry_MX.pretty")(options "")(descr ""))
   (lib (name "STM")(type "KiCad")(uri "${KIPRJMOD}/STM.pretty")(options "")(descr ""))
+  (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.pretty")(options "")(descr ""))
+  (lib (name "Adafruit")(type "KiCad")(uri "${KIPRJMOD}/Adafruit.pretty")(options "")(descr ""))
 )

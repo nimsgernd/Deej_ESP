@@ -1,7 +1,7 @@
 (footprint "D0014A-IPC_B"
-	(version 20250513)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(tags "SN74HCS126DR ")
 	(property "Reference" "REF**"
@@ -51,7 +51,6 @@
 		)
 	)
 	(attr smd)
-	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -0.779033 -4.325)
 		(end 0.779033 -4.325)
@@ -171,140 +170,84 @@
 		(at -2.366066 -3.81)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "6463877d-3743-4087-a6f6-cd4edd7b4dd2")
 	)
 	(pad "2" smd rect
 		(at -2.366066 -2.54)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "849e6871-43d0-4494-bf05-f76ac3c45c7f")
 	)
 	(pad "3" smd rect
 		(at -2.366066 -1.27)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "664792a9-bfcf-4779-99f7-7eed4003310b")
 	)
 	(pad "4" smd rect
 		(at -2.366066 0)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "326a51c0-d271-4502-a3c4-e6625aea1b7c")
 	)
 	(pad "5" smd rect
 		(at -2.366066 1.27)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "12df5cc5-d93e-46e5-9015-80e815716b36")
 	)
 	(pad "6" smd rect
 		(at -2.366066 2.54)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "72e302ad-4c7a-4026-9d5f-e66ba3a4a381")
 	)
 	(pad "7" smd rect
 		(at -2.366066 3.81)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "fde8c98c-f148-4ff7-a735-355c2f9edb00")
 	)
 	(pad "8" smd rect
 		(at 2.366066 3.81)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "3e1d0180-517c-42b7-93a1-d7c91079119c")
 	)
 	(pad "9" smd rect
 		(at 2.366066 2.54)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "1c55669b-afa3-4323-8d69-359213787028")
 	)
 	(pad "10" smd rect
 		(at 2.366066 1.27)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "a47af917-e787-4397-acc7-e44449382ab3")
 	)
 	(pad "11" smd rect
 		(at 2.366066 0)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "047e041b-c361-4f29-a0a5-9e6dd05450bb")
 	)
 	(pad "12" smd rect
 		(at 2.366066 -1.27)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "bc3815a2-1b41-4e68-b964-49aebc419c0c")
 	)
 	(pad "13" smd rect
 		(at 2.366066 -2.54)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "ff132ad4-ce52-4ba6-b342-eca939fcb60d")
 	)
 	(pad "14" smd rect
 		(at 2.366066 -3.81)
 		(size 2.174065 0.582132)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(tenting
-			(front none)
-			(back none)
-		)
 		(uuid "3e4e03bd-b6c5-4dee-8e29-d0ae1f820ad9")
 	)
 	(embedded_fonts no)
