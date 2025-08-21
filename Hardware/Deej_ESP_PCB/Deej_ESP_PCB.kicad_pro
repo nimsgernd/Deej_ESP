@@ -235,7 +235,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|279400|368300|f8b2ddc3-2277-46eb-b564-d98104f1d323|00000000-0000-0000-0000-000000000000|||",
+        "Reordered the D+ and D- pins and set VBUS as power output"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -608,6 +613,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,

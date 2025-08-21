@@ -698,7 +698,7 @@
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Display.3dshapes/Adafruit_SSD1306.step"
 		(offset
-			(xyz 0 0 11)
+			(xyz 0 0 8)
 		)
 		(scale
 			(xyz 1 1 1)
@@ -707,26 +707,26 @@
 			(xyz -0 -0 -0)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinHeader_2.54mm.3dshapes/PinHeader_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3D_Models/350-80-108-00-001101.stp"
 		(offset
-			(xyz 0 0 11)
+			(xyz 9 0 4.5)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -180 -90)
+			(xyz 90 -180 -0)
 		)
 	)
-	(model "${KICAD9_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x08_P2.54mm_Vertical.step"
+	(model "${KIPRJMOD}/3D_Models/801-87-008-10-012101.stp"
 		(offset
-			(xyz 0 0 0)
+			(xyz 9 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -90)
+			(xyz -90 -0 -0)
 		)
 	)
 	(model "${KIPRJMOD}/Adafruit.pretty/10429532.stp"

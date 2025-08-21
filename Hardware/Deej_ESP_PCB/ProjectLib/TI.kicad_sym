@@ -1,7 +1,7 @@
 (kicad_symbol_lib
-	(version 20250324)
+	(version 20241209)
 	(generator "kicad_symbol_editor")
-	(generator_version "9.99")
+	(generator_version "9.0")
 	(symbol "LMS1585ACS-3.3_NOPB"
 		(pin_names
 			(offset 0.254)
@@ -9,7 +9,6 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 12.7 3.81 0)
 			(effects
@@ -26,59 +25,51 @@
 				)
 			)
 		)
-		(property "Footprint" "KTT0003B"
+		(property "Footprint" "TI:KTT0003B"
 			(at 12.7 -25.146 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/lms1585a"
 			(at 12.7 -22.86 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "LMS1585ACS-3.3/NOPB"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "KTT0003B"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "LMS1585ACS-3.3_NOPB_0_1"
@@ -118,7 +109,7 @@
 					)
 				)
 			)
-			(pin power_in line
+			(pin power_out line
 				(at 25.4 -1.27 180)
 				(length 5.08)
 				(name "OUTPUT"
@@ -178,7 +169,6 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 19.304 9.144 0)
 			(effects
@@ -195,51 +185,51 @@
 				)
 			)
 		)
-		(property "Footprint" "RGT16_1P6X1P6"
+		(property "Footprint" "TI:RGT16_1P6X1P6"
 			(at 19.304 -29.21 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/pcf8574"
 			(at 20.32 -26.924 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "PCF8574RGTR"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "RGT16_1P6X1P6"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "PCF8574RGTR_0_1"
@@ -572,7 +562,6 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
 			(at 15.494 9.144 0)
 			(effects
@@ -589,59 +578,51 @@
 				)
 			)
 		)
-		(property "Footprint" "D0014A-IPC_A"
+		(property "Footprint" "TI:D0014A-IPC_A"
 			(at 15.494 6.604 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/gpn/sn74hcs126"
 			(at 15.494 -37.338 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 					(italic yes)
 				)
+				(hide yes)
 			)
 		)
 		(property "Description" ""
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(hide yes)
 			)
 		)
 		(property "ki_keywords" "SN74HCS126DR"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "ki_fp_filters" "D0014A-IPC_A D0014A-IPC_B D0014A-IPC_C D0014A-MFG"
 			(at 0 0 0)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(symbol "SN74HCS126DR_0_1"
