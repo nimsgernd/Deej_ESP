@@ -15,6 +15,9 @@ The desired feature list is:
 Evenually:
 - Li-Ion battery powered (maybe 18650)
 
+## _Disclaimer_
+With GitHub merging into Microsoft's AI division I will be doing all future projects on a different version control platform. I will finish this project here then look into a GitHub alternitive, possibly Gitea??
+
 # deej
 
 deej is an **open-source hardware volume mixer** for Windows and Linux PCs. It lets you use real-life sliders (like a DJ!) to **seamlessly control the volumes of different apps** (such as your music player, the game you're playing and your voice chat session) without having to stop what you're doing.
