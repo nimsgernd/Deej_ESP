@@ -7,4 +7,5 @@
   (lib (name "STM")(type "KiCad")(uri "${KIPRJMOD}/STM.pretty")(options "")(descr ""))
   (lib (name "ESP32")(type "KiCad")(uri "${KIPRJMOD}/ESP32.pretty")(options "")(descr ""))
   (lib (name "Adafruit")(type "KiCad")(uri "${KIPRJMOD}/Adafruit.pretty")(options "")(descr ""))
+  (lib (name "TEConnectivity")(type "KiCad")(uri "${KIPRJMOD}/TEConnectivity.pretty")(options "")(descr ""))
 )

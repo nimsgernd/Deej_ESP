@@ -729,7 +729,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/Adafruit.pretty/10429532.stp"
+	(model "${KIPRJMOD}/Adafruit.pretty/R30-1000802.stp"
 		(offset
 			(xyz -5.5 0 0)
 		)
@@ -737,10 +737,10 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -180 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/Adafruit.pretty/10429532.stp"
+	(model "${KIPRJMOD}/Adafruit.pretty/R30-1000802.stp"
 		(offset
 			(xyz 23.5 0 0)
 		)
@@ -748,10 +748,10 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -180 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/Adafruit.pretty/10429532.stp"
+	(model "${KIPRJMOD}/Adafruit.pretty/R30-1000802.stp"
 		(offset
 			(xyz -5.5 -29.5 0)
 		)
@@ -759,10 +759,10 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -180 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/Adafruit.pretty/10429532.stp"
+	(model "${KIPRJMOD}/Adafruit.pretty/R30-1000802.stp"
 		(offset
 			(xyz 23.5 -29.5 0)
 		)
@@ -770,7 +770,7 @@
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 -0)
+			(xyz -180 -0 -0)
 		)
 	)
 )
