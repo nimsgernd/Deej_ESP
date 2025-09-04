@@ -2764,6 +2764,113 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole_Pad"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole_Pad"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole with connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_Pad_0_1"
+				(circle
+					(center 0 1.27)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MountingHole_Pad_1_1"
+				(pin input line
+					(at 0 -2.54 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Power_Protection:ECMF02-2AMX6"
 			(pin_names
 				(offset 0.0254)
@@ -3389,23 +3496,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -11.43 29.21 0)
+			(property "Reference" "U7"
+				(at -22.606 33.02 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ESP32-S3-MINI-1U"
-				(at 12.7 29.21 0)
+				(at -22.606 30.48 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:ESP32-S2-MINI-1U"
+			(property "Footprint" "ESP32:ESP32S3MINI1UN8"
 				(at 16.51 -29.21 0)
 				(effects
 					(font
@@ -4297,6 +4406,158 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "66"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "67"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "68"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "69"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "70"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "71"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "72"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -30.48 90)
+					(length 2.54)
+					(hide yes)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "73"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin bidirectional line
 					(at 15.24 25.4 180)
 					(length 2.54)
@@ -4917,23 +5178,25 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "CR"
-				(at 4.318 5.588 0)
+			(property "Reference" "CR7"
+				(at 2.5399 2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
 			(property "Value" "ESDA25P35-1U1M"
-				(at 4.318 3.048 0)
+				(at 5.0799 2.54 90)
 				(effects
 					(font
 						(size 1.524 1.524)
 					)
+					(justify left)
 				)
 			)
-			(property "Footprint" "STM:QFN-6L_STM"
+			(property "Footprint" "STM:QFN1610_STM"
 				(at 3.81 -3.048 0)
 				(effects
 					(font
@@ -7646,6 +7909,10 @@
 		(uuid "496ac9b6-e4cc-4d7e-baab-5000f843df10")
 	)
 	(no_connect
+		(at 172.72 233.68)
+		(uuid "635142b0-a2d8-4b2b-aebe-c14c202e1734")
+	)
+	(no_connect
 		(at 273.05 71.12)
 		(uuid "66c64e29-6c08-42be-b75c-b786c6f57a8e")
 	)
@@ -8330,16 +8597,6 @@
 			(type default)
 		)
 		(uuid "1c5466ef-783b-4fba-8751-41b46f5c523f")
-	)
-	(wire
-		(pts
-			(xy 172.72 233.68) (xy 184.15 233.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1cc3ca26-faf4-48a8-bede-c99b146ff4dd")
 	)
 	(wire
 		(pts
@@ -14870,6 +15127,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 330.2 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c607404-481f-4ffb-8305-d5e1474f523a")
+		(property "Reference" "H9"
+			(at 332.74 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 332.74 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 330.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 330.2 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e8a50c8e-5d35-4e0d-9a23-cb0f22c1afd0")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 345.44 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c9db7d0-cf40-4b6b-af3a-d182ecc32b2e")
+		(property "Reference" "H5"
+			(at 347.98 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 347.98 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 345.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 345.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 345.44 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53e52d95-8221-4c3d-97a0-c6cb4ee3f432")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Bourns_Potentiometer:PTL01-15R0-103B1")
 		(at 257.81 138.43 180)
 		(unit 1)
@@ -14957,7 +15350,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 144.78 0)
+		(at 128.27 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14966,7 +15359,7 @@
 		(fields_autoplaced yes)
 		(uuid "0fe32da6-3109-4aca-9e50-0ad3da19c9cd")
 		(property "Reference" "SW1"
-			(at 44.45 137.16 0)
+			(at 128.27 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14974,7 +15367,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 139.7 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14982,7 +15375,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 44.45 139.7 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14991,7 +15384,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 139.7 0)
+			(at 128.27 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15000,7 +15393,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 144.78 0)
+			(at 128.27 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15015,7 +15408,7 @@
 			(uuid "e091bfd8-4963-4c43-ba68-bb186e12c0b5")
 		)
 		(instances
-			(project ""
+			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "SW1")
 					(unit 1)
@@ -15284,6 +15677,72 @@
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 322.58 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14083754-23eb-4306-9fc2-fb3ee8721936")
+		(property "Reference" "#PWR035"
+			(at 322.58 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ce2cd3a5-7bd1-4c4b-bc7d-c2adb0720a65")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -16387,6 +16846,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 346.71 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20f07514-8462-4a52-9a4c-9193833ef2aa")
+		(property "Reference" "#PWR038"
+			(at 346.71 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 346.71 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 346.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 346.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 346.71 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f0163d5-9ffa-4506-ad79-f33d878ae207")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 55.88 165.1 0)
 		(unit 1)
@@ -16689,8 +17214,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 314.96 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27e56d82-8ef1-4d18-a508-348b86ea0105")
+		(property "Reference" "#PWR034"
+			(at 314.96 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c1644b-c94b-4996-b57d-93c49f47d483")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR034")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 44.45 168.91 0)
+		(at 128.27 120.65 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16699,7 +17290,7 @@
 		(fields_autoplaced yes)
 		(uuid "28ded1d1-6cae-4b19-8eab-bb8e3916b5d5")
 		(property "Reference" "SW2"
-			(at 44.45 161.29 0)
+			(at 128.27 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16707,7 +17298,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 44.45 163.83 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16715,7 +17306,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 44.45 163.83 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16724,7 +17315,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 163.83 0)
+			(at 128.27 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16733,7 +17324,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 44.45 168.91 0)
+			(at 128.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16748,7 +17339,7 @@
 			(uuid "e091bfd8-4963-4c43-ba68-bb186e12c0b6")
 		)
 		(instances
-			(project ""
+			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "SW2")
 					(unit 1)
@@ -17335,6 +17926,140 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 330.2 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3551459e-5226-4aea-8590-495d1cc0bd27")
+		(property "Reference" "#PWR030"
+			(at 330.2 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55c17822-caec-43e3-b614-a80885b8833f")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 314.96 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "365d1b36-7fe5-4db0-b395-da7d85b9284a")
+		(property "Reference" "H7"
+			(at 317.5 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 317.5 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 314.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 314.96 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36b68078-0b5f-4e6e-9c07-c6dfd468c5e1")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 273.05 104.14 0)
 		(unit 1)
@@ -17464,6 +18189,74 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 346.71 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a191671-48d5-483a-a964-0939f4d118ad")
+		(property "Reference" "H11"
+			(at 349.25 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 349.25 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 346.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 346.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 346.71 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ddb9b8b-616e-4a78-9cfb-f34318be1adc")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -18204,6 +18997,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 322.58 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b385ac8-8968-4041-bb3c-35c4e74c687f")
+		(property "Reference" "#PWR029"
+			(at 322.58 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 322.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 322.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 322.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 322.58 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "31e85e52-3451-4083-bd07-f24e0cc38e37")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 213.36 46.99 90)
 		(unit 1)
@@ -18514,6 +19373,74 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 337.82 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4fa7a11d-20d9-4462-b1e3-259cab905b1f")
+		(property "Reference" "H10"
+			(at 340.36 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 340.36 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 337.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 337.82 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "323bad36-2e66-45d6-ba22-1a0b53b63e59")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -18882,7 +19809,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "STM:QFN-6L_STM"
+		(property "Footprint" "STM:QFN1610_STM"
 			(at 84.582 38.1 0)
 			(effects
 				(font
@@ -19132,6 +20059,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 322.58 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ace440e-2252-4baa-971e-1aca7f5f6437")
+		(property "Reference" "H8"
+			(at 325.12 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 325.12 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 322.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 322.58 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cddd9f17-b4af-4dce-89da-6a75e17d2140")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 322.58 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5baf461d-e4fb-4fb1-b60c-a360224343a6")
+		(property "Reference" "H2"
+			(at 325.12 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 325.12 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 322.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 322.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 322.58 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "39276ceb-b5d0-40c7-ba98-1e7ebd2475e5")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 139.7 165.1 0)
 		(unit 1)
@@ -19346,6 +20409,138 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "630ddcfe-dc51-4c3f-a36b-ba96d6b30927")
+		(property "Reference" "#PWR031"
+			(at 337.82 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25673a5e-3693-49c5-aa84-e00d747a65bc")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 353.06 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6705d9f1-9719-45f4-82ad-4725db2fb494")
+		(property "Reference" "#PWR033"
+			(at 353.06 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 353.06 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 353.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 353.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 353.06 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b3c5d17a-fbe8-4a7b-8a6e-5f5cfb45b27c")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -20362,6 +21557,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 330.2 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b165481-cd71-4384-b7a1-f54a50ef3c3f")
+		(property "Reference" "H3"
+			(at 332.74 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 332.74 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 330.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 330.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 330.2 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80f1f581-b857-4ba8-a5c6-223fd38bbb08")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D")
 		(at 143.51 100.33 90)
 		(unit 1)
@@ -20872,72 +22135,6 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "CR15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 184.15 241.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "856a93ee-e722-410d-9530-5b0e795886ee")
-		(property "Reference" "#PWR017"
-			(at 184.15 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37b90852-8847-4ba4-a2f9-bc9a97a2e8b3")
-		)
-		(instances
-			(project ""
-				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -21496,6 +22693,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 345.44 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9a03bdde-254e-4053-bed6-5cf9e0d37604")
+		(property "Reference" "#PWR032"
+			(at 345.44 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 345.44 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a14e127-a304-4f3a-95aa-81c82497a5f1")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 266.7 157.48 270)
 		(unit 1)
@@ -21853,7 +23116,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 96.52 0)
+		(at 128.27 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -21862,7 +23125,7 @@
 		(fields_autoplaced yes)
 		(uuid "a4ce7058-8f4c-466c-8726-029f74caf586")
 		(property "Reference" "SW3"
-			(at 128.27 88.9 0)
+			(at 128.27 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21870,7 +23133,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 91.44 0)
+			(at 128.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21878,7 +23141,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 128.27 91.44 0)
+			(at 128.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21887,7 +23150,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 91.44 0)
+			(at 128.27 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21896,7 +23159,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 96.52 0)
+			(at 128.27 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22413,7 +23676,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 144.78 0)
+		(at 44.45 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22422,7 +23685,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae5cad57-04a5-4934-a32b-00297e40d0c5")
 		(property "Reference" "SW5"
-			(at 128.27 137.16 0)
+			(at 44.45 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22430,7 +23693,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 139.7 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22438,7 +23701,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 128.27 139.7 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22447,7 +23710,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 139.7 0)
+			(at 44.45 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22456,7 +23719,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 144.78 0)
+			(at 44.45 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22683,6 +23946,72 @@
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 337.82 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b0105295-b704-4312-965a-c1ae4830459e")
+		(property "Reference" "#PWR037"
+			(at 337.82 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 337.82 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 337.82 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36513098-5b80-4bf3-a95b-df15854c539d")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -23493,7 +24822,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 168.91 0)
+		(at 44.45 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -23502,7 +24831,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9c163ea-e2c2-4810-8423-ee9bfb83a2f4")
 		(property "Reference" "SW6"
-			(at 128.27 161.29 0)
+			(at 44.45 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23510,7 +24839,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 163.83 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23518,7 +24847,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 128.27 163.83 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23527,7 +24856,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 163.83 0)
+			(at 44.45 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23536,7 +24865,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 168.91 0)
+			(at 44.45 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23698,6 +25027,142 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 337.82 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd946446-686b-489e-aa5b-aef379e23e13")
+		(property "Reference" "H4"
+			(at 340.36 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 340.36 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 337.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 337.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 337.82 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "84e79faf-ede8-4030-af2a-906b378eab80")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 314.96 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf4c6d46-6b5d-4ee1-9292-fa442f9083d0")
+		(property "Reference" "H1"
+			(at 317.5 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 317.5 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 314.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 314.96 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e9115c8d-f21c-4354-97fd-0f229b48fef7")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H1")
 					(unit 1)
 				)
 			)
@@ -23926,6 +25391,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 355.6 33.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c6af7052-0e67-4f98-8dc3-dafbdd883552")
+		(property "Reference" "H12"
+			(at 358.14 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 358.14 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 355.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 355.6 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3cef026b-8bbf-4932-8dd0-154b3c5e0234")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 128.27 176.53 270)
 		(unit 1)
@@ -23987,6 +25520,72 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 330.2 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd33b0f4-3395-43f1-8d6b-b7af8ef097d9")
+		(property "Reference" "#PWR036"
+			(at 330.2 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 330.2 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 330.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 330.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 330.2 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ab91596-9a1e-424f-97c2-bdc20b8fec7a")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -24463,6 +26062,72 @@
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
 					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 314.96 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dbfc6fef-56f4-43e2-bd34-34f8b0dec4fe")
+		(property "Reference" "#PWR017"
+			(at 314.96 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 314.96 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 314.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 314.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 314.96 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "895191ad-26c0-4b67-9411-484a09e39fc4")
+		)
+		(instances
+			(project ""
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -25060,6 +26725,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole_Pad")
+		(at 353.06 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6b4736c-a680-4372-a1ef-a1a3f82e5d76")
+		(property "Reference" "H6"
+			(at 355.6 17.7799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole_Pad"
+			(at 355.6 20.3199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_3.2mm_M3_Pad"
+			(at 353.06 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 353.06 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole with connection"
+			(at 353.06 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "129b15ac-3f40-40c7-922a-9dc7eea090e8")
+		)
+		(instances
+			(project "Deej_ESP_PCB"
+				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 128.27 104.14 270)
 		(unit 1)
@@ -25336,35 +27069,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 184.15 237.49 0)
+		(lib_id "power:GND")
+		(at 355.6 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ef294a1b-5d46-484e-a594-e7b7f3f1d346")
-		(property "Reference" "R22"
-			(at 186.69 236.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "499"
-			(at 186.69 238.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 182.372 237.49 90)
+		(uuid "edefb31e-6f73-474c-9af7-d0df68965fde")
+		(property "Reference" "#PWR039"
+			(at 355.6 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25372,8 +27087,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 184.15 237.49 0)
+		(property "Value" "GND"
+			(at 355.6 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25381,8 +27104,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 184.15 237.49 0)
+		(property "Datasheet" ""
+			(at 355.6 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25390,16 +27113,22 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "0ec19f0e-d73a-4409-a879-254fa9a7a1eb")
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "d47d94b5-ec29-46ed-bb1f-d28910cdeb1e")
+			(uuid "0dae5a3b-8608-4329-927e-fd576fa9d665")
 		)
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R22")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -25473,7 +27202,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 128.27 120.65 0)
+		(at 128.27 168.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -25482,7 +27211,7 @@
 		(fields_autoplaced yes)
 		(uuid "f01018b2-3f7e-4356-abc6-d73b940a3c13")
 		(property "Reference" "SW4"
-			(at 128.27 113.03 0)
+			(at 128.27 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25490,7 +27219,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 128.27 115.57 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25498,7 +27227,7 @@
 			)
 		)
 		(property "Footprint" "PCM_Switch_Keyboard_Cherry_MX:SW_Cherry_MX_PCB"
-			(at 128.27 115.57 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25507,7 +27236,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 115.57 0)
+			(at 128.27 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25516,7 +27245,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 128.27 120.65 0)
+			(at 128.27 168.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -25998,6 +27727,30 @@
 		)
 		(pin "33"
 			(uuid "3150e24c-3176-40a4-a580-8bc4e19449a0")
+		)
+		(pin "68"
+			(uuid "dcb71992-a7bb-48ec-892d-d14d0907f562")
+		)
+		(pin "67"
+			(uuid "4723c6c2-1b25-45a3-be6d-64dc7844bfdf")
+		)
+		(pin "73"
+			(uuid "79b45c93-96ce-47a9-b8a6-1ddf29ab1095")
+		)
+		(pin "71"
+			(uuid "762a95f6-fc09-49b2-a3bd-836684c85765")
+		)
+		(pin "72"
+			(uuid "29f075be-158c-4906-b553-a3faa815c0ff")
+		)
+		(pin "70"
+			(uuid "ad584d32-d8c1-49b7-97b4-c86d6364d0ca")
+		)
+		(pin "66"
+			(uuid "8bda6daf-5fba-4dde-8010-67bd0b76b87a")
+		)
+		(pin "69"
+			(uuid "c70b76d6-7a95-4866-99a4-987124016f17")
 		)
 		(instances
 			(project ""
