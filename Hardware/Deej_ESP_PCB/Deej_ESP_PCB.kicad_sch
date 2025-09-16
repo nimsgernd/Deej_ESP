@@ -14929,7 +14929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "043f4257-0204-48be-905c-6f057c9e3770")
-		(property "Reference" "R27"
+		(property "Reference" "R26"
 			(at 266.7 125.73 90)
 			(effects
 				(font
@@ -14981,7 +14981,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R27")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -15136,7 +15136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c607404-481f-4ffb-8305-d5e1474f523a")
-		(property "Reference" "H9"
+		(property "Reference" "H6"
 			(at 332.74 30.4799 0)
 			(effects
 				(font
@@ -15188,7 +15188,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H9")
+					(reference "H6")
 					(unit 1)
 				)
 			)
@@ -15204,7 +15204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0c9db7d0-cf40-4b6b-af3a-d182ecc32b2e")
-		(property "Reference" "H5"
+		(property "Reference" "H9"
 			(at 347.98 17.7799 0)
 			(effects
 				(font
@@ -15256,7 +15256,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H5")
+					(reference "H9")
 					(unit 1)
 				)
 			)
@@ -15358,7 +15358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fe32da6-3109-4aca-9e50-0ad3da19c9cd")
-		(property "Reference" "SW1"
+		(property "Reference" "SW3"
 			(at 128.27 88.9 0)
 			(effects
 				(font
@@ -15410,7 +15410,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW1")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -15560,7 +15560,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13a6a8e9-5e51-4a45-8fab-80e94f460c04")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR025"
 			(at 280.67 106.68 0)
 			(effects
 				(font
@@ -15610,7 +15610,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR026")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -15626,7 +15626,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "13c57077-acb8-40a1-b68b-4e56bf3473b8")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR020"
 			(at 210.82 201.93 0)
 			(effects
 				(font
@@ -15676,7 +15676,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR021")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -15692,7 +15692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14083754-23eb-4306-9fc2-fb3ee8721936")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR031"
 			(at 322.58 41.91 0)
 			(effects
 				(font
@@ -15742,7 +15742,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR035")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -15902,7 +15902,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b59dca-29f2-486d-bfdb-158c5a431aff")
-		(property "Reference" "R26"
+		(property "Reference" "R25"
 			(at 266.7 100.33 90)
 			(effects
 				(font
@@ -15954,7 +15954,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R26")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -16212,7 +16212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a800fd1-c4c0-4c10-95d4-88dde99cafac")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR029"
 			(at 320.04 207.01 0)
 			(effects
 				(font
@@ -16262,7 +16262,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -16278,7 +16278,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4c81a7-975b-423f-88fb-cec0868cd0c1")
-		(property "Reference" "R30"
+		(property "Reference" "R29"
 			(at 266.7 201.93 90)
 			(effects
 				(font
@@ -16330,7 +16330,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R30")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -16855,7 +16855,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f07514-8462-4a52-9a4c-9193833ef2aa")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR037"
 			(at 346.71 41.91 0)
 			(effects
 				(font
@@ -16905,7 +16905,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -17223,7 +17223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27e56d82-8ef1-4d18-a508-348b86ea0105")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR028"
 			(at 314.96 41.91 0)
 			(effects
 				(font
@@ -17273,7 +17273,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR034")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -17289,7 +17289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "28ded1d1-6cae-4b19-8eab-bb8e3916b5d5")
-		(property "Reference" "SW2"
+		(property "Reference" "SW4"
 			(at 128.27 113.03 0)
 			(effects
 				(font
@@ -17341,7 +17341,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW2")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
@@ -17726,7 +17726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ff4af0c-d563-418b-b5c6-d2f0032fc378")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR023"
 			(at 255.27 92.71 0)
 			(effects
 				(font
@@ -17776,7 +17776,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR024")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -17935,7 +17935,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3551459e-5226-4aea-8590-495d1cc0bd27")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 330.2 29.21 0)
 			(effects
 				(font
@@ -17985,7 +17985,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -18001,7 +18001,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "365d1b36-7fe5-4db0-b395-da7d85b9284a")
-		(property "Reference" "H7"
+		(property "Reference" "H2"
 			(at 317.5 30.4799 0)
 			(effects
 				(font
@@ -18053,7 +18053,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H7")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -18069,7 +18069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3779dc1b-22da-4ffe-8a1f-1d5165545eaf")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR024"
 			(at 273.05 107.95 0)
 			(effects
 				(font
@@ -18119,7 +18119,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR025")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -18204,7 +18204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a191671-48d5-483a-a964-0939f4d118ad")
-		(property "Reference" "H11"
+		(property "Reference" "H10"
 			(at 349.25 30.4799 0)
 			(effects
 				(font
@@ -18256,7 +18256,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H11")
+					(reference "H10")
 					(unit 1)
 				)
 			)
@@ -19006,7 +19006,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b385ac8-8968-4041-bb3c-35c4e74c687f")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR030"
 			(at 322.58 29.21 0)
 			(effects
 				(font
@@ -19056,7 +19056,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR029")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19388,7 +19388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4fa7a11d-20d9-4462-b1e3-259cab905b1f")
-		(property "Reference" "H10"
+		(property "Reference" "H8"
 			(at 340.36 30.4799 0)
 			(effects
 				(font
@@ -19440,7 +19440,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H10")
+					(reference "H8")
 					(unit 1)
 				)
 			)
@@ -19524,7 +19524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5261c4ed-5f34-46ec-bd1a-27bc9fd9e6f4")
-		(property "Reference" "R31"
+		(property "Reference" "R30"
 			(at 266.7 227.33 90)
 			(effects
 				(font
@@ -19576,7 +19576,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R31")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -19725,7 +19725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "548c2600-f3e2-43e2-9dd5-8bfd7dcd1202")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR019"
 			(at 196.85 247.65 0)
 			(effects
 				(font
@@ -19775,7 +19775,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR020")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -20068,7 +20068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ace440e-2252-4baa-971e-1aca7f5f6437")
-		(property "Reference" "H8"
+		(property "Reference" "H4"
 			(at 325.12 30.4799 0)
 			(effects
 				(font
@@ -20120,7 +20120,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H8")
+					(reference "H4")
 					(unit 1)
 				)
 			)
@@ -20136,7 +20136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5baf461d-e4fb-4fb1-b60c-a360224343a6")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 325.12 17.7799 0)
 			(effects
 				(font
@@ -20188,7 +20188,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -20424,7 +20424,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "630ddcfe-dc51-4c3f-a36b-ba96d6b30927")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR034"
 			(at 337.82 29.21 0)
 			(effects
 				(font
@@ -20474,7 +20474,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR031")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -20490,7 +20490,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6705d9f1-9719-45f4-82ad-4725db2fb494")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR038"
 			(at 353.06 29.21 0)
 			(effects
 				(font
@@ -20540,7 +20540,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR033")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20556,7 +20556,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "686748fb-fb73-43d7-824c-542b63edac0d")
-		(property "Reference" "R29"
+		(property "Reference" "R28"
 			(at 266.7 176.53 90)
 			(effects
 				(font
@@ -20608,7 +20608,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R29")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -20712,7 +20712,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "705fad81-aa00-4963-bd35-3cfe9c2c214d")
-		(property "Reference" "R24"
+		(property "Reference" "R23"
 			(at 215.9 203.1999 0)
 			(effects
 				(font
@@ -20766,7 +20766,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R24")
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -20922,7 +20922,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7320e18f-fc97-483b-9e9f-8bdc3f42c3df")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR018"
 			(at 196.85 234.95 0)
 			(effects
 				(font
@@ -20972,7 +20972,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR019")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -21566,7 +21566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b165481-cd71-4384-b7a1-f54a50ef3c3f")
-		(property "Reference" "H3"
+		(property "Reference" "H5"
 			(at 332.74 17.7799 0)
 			(effects
 				(font
@@ -21618,7 +21618,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H3")
+					(reference "H5")
 					(unit 1)
 				)
 			)
@@ -22296,7 +22296,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f8c260f-8acb-4799-95e5-2cf0608f1385")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR021"
 			(at 231.14 259.08 0)
 			(effects
 				(font
@@ -22346,7 +22346,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR022")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -22702,7 +22702,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a03bdde-254e-4053-bed6-5cf9e0d37604")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR036"
 			(at 345.44 29.21 0)
 			(effects
 				(font
@@ -22752,7 +22752,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR032")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -22768,7 +22768,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ce29fe3-ce62-4463-b97d-bae9b7cf1169")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 266.7 151.13 90)
 			(effects
 				(font
@@ -22820,7 +22820,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -23124,7 +23124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4ce7058-8f4c-466c-8726-029f74caf586")
-		(property "Reference" "SW3"
+		(property "Reference" "SW5"
 			(at 128.27 137.16 0)
 			(effects
 				(font
@@ -23176,7 +23176,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW3")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -23684,7 +23684,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae5cad57-04a5-4934-a32b-00297e40d0c5")
-		(property "Reference" "SW5"
+		(property "Reference" "SW2"
 			(at 44.45 161.29 0)
 			(effects
 				(font
@@ -23736,7 +23736,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW5")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -23961,7 +23961,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0105295-b704-4312-965a-c1ae4830459e")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR035"
 			(at 337.82 41.91 0)
 			(effects
 				(font
@@ -24011,7 +24011,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR037")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -24336,7 +24336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b204fc3c-517b-47d8-99a2-c81b32f3afcc")
-		(property "Reference" "R25"
+		(property "Reference" "R24"
 			(at 227.33 15.24 90)
 			(effects
 				(font
@@ -24388,7 +24388,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R25")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -24695,7 +24695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b596c2a5-61cd-4fde-93ab-2ac30aa7146a")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 255.27 24.13 0)
 			(effects
 				(font
@@ -24745,7 +24745,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -24830,7 +24830,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b9c163ea-e2c2-4810-8423-ee9bfb83a2f4")
-		(property "Reference" "SW6"
+		(property "Reference" "SW1"
 			(at 44.45 137.16 0)
 			(effects
 				(font
@@ -24882,7 +24882,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW6")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -25042,7 +25042,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd946446-686b-489e-aa5b-aef379e23e13")
-		(property "Reference" "H4"
+		(property "Reference" "H7"
 			(at 340.36 17.7799 0)
 			(effects
 				(font
@@ -25094,7 +25094,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H4")
+					(reference "H7")
 					(unit 1)
 				)
 			)
@@ -25535,7 +25535,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd33b0f4-3395-43f1-8d6b-b7af8ef097d9")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR033"
 			(at 330.2 41.91 0)
 			(effects
 				(font
@@ -25585,7 +25585,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR036")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -26007,7 +26007,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d92c8417-2b70-492a-96e1-6045fe0e7c56")
-		(property "Reference" "R23"
+		(property "Reference" "R22"
 			(at 205.74 203.1999 0)
 			(effects
 				(font
@@ -26061,7 +26061,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "R23")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -26077,7 +26077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbfc6fef-56f4-43e2-bd34-34f8b0dec4fe")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR027"
 			(at 314.96 29.21 0)
 			(effects
 				(font
@@ -26127,7 +26127,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR017")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -26143,7 +26143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd60e858-8fff-46ec-8dc3-d80a715d0c32")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 285.75 106.68 0)
 			(effects
 				(font
@@ -26193,7 +26193,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR027")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -26582,7 +26582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e63c11cf-f935-45c1-91f6-81ce39da6d99")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR017"
 			(at 190.5 162.56 0)
 			(effects
 				(font
@@ -26632,7 +26632,7 @@
 		(instances
 			(project ""
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "#PWR018")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -26734,7 +26734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6b4736c-a680-4372-a1ef-a1a3f82e5d76")
-		(property "Reference" "H6"
+		(property "Reference" "H11"
 			(at 355.6 17.7799 0)
 			(effects
 				(font
@@ -26786,7 +26786,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "H6")
+					(reference "H11")
 					(unit 1)
 				)
 			)
@@ -27210,7 +27210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f01018b2-3f7e-4356-abc6-d73b940a3c13")
-		(property "Reference" "SW4"
+		(property "Reference" "SW6"
 			(at 128.27 161.29 0)
 			(effects
 				(font
@@ -27262,7 +27262,7 @@
 		(instances
 			(project "Deej_ESP_PCB"
 				(path "/8d652af0-aa82-4e0b-8846-3a70bb846eae"
-					(reference "SW4")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
