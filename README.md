@@ -12,11 +12,8 @@ The desired feature list is:
 - 12 Slide poentiometer indicators
 - 4 SPI 128x64 OLED displays
 
-Evenually:
-- Li-Ion battery powered (maybe 18650)
-
-## _Disclaimer_
-With GitHub merging into Microsoft's AI division I will be doing all future projects on a different version control platform. I will finish this project here then look into a GitHub alternitive, possibly Gitea??
+Ideas for a Rev2:
+- Li-Ion battery powered (maybe 18650 or pouch cell)
 
 # deej
 
