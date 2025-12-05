@@ -6660,7 +6660,7 @@
 		)
 		(uuid "f84965ae-bab5-4d84-9dbe-17db24ea0591")
 	)
-	(text_box "Audio Controller Hardware\nThis Schematic gives a user the ability to use hardware potentiometers and pushbuttons to control their PC audio.\nThe system takes in power from the USB C port and converts it form 5V to 3.3V.\nThe ESP32-S3 selected has built in Bluetooth and WiFi which allows wireless connectivity if software changes enable it's use.\nAll Push buttons have hardware filtering and debouncing (I didn't feel like doing it in software and also wanted to learn how it's done).\nPotentiameters have decoupling on their power inputs to reduce noise (unessecarry for the application but felt like exprimenting).\nNeoPixel LEDs are for noting the selection between % and dB for sliders.\nOLEDs are for giving more complex user feed back."
+	(text_box "Audio Controller Hardware\nThis Schematic gives a user the ability to use hardware potentiometers and pushbuttons to control their PC audio.\nThe system takes in power from the USB C port and converts it form 5V to 3.3V.\nThe ESP32-S3 selected has built in Bluetooth and WiFi which allows wireless connectivity if software changes enable its use.\nAll Push buttons have hardware filtering and debouncing (I didn't feel like doing it in software and also wanted to learn how it's done).\nPotentiameters have decoupling on their power inputs to reduce noise (unessecarry for the application but felt like exprimenting).\nNeoPixel LEDs are for noting the selection between % and dB for sliders.\nOLEDs are for giving more complex user feed back."
 		(exclude_from_sim no)
 		(at 203.2 95.25 0)
 		(size 24.13 93.98)
